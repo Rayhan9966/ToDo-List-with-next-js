@@ -9,14 +9,14 @@ const Navber = () => {
     const pathName= usePathname();
     const router =useRouter()
     const links =[
-        {
-            title:"Add",
-            path:'/todo'
-        },
-        {
-            title:"All List",
-            path:'/list'
-        }
+        // {
+        //     title:"Add",
+        //     path:'/todo'
+        // },
+        // {
+        //     title:"All List",
+        //     path:'/list'
+        // }
     ]
     const handleLogin=()=>{
         router.push('/todo/login')
