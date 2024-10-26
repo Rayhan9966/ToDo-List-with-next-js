@@ -7,11 +7,7 @@ const Login = () => {
       <div>
       <div className="w-full max-w-sm p-6 m-auto mx-auto bg-white rounded-lg shadow-md dark:bg-gray-800 mt-20 px-10">
   <div className="flex justify-center mx-auto">
-    {/* <img
-      className="w-auto h-7 sm:h-8"
-      src="https://merakiui.com/images/logo.svg"
-      alt=""
-    /> */}
+
     <Link href={'/'}><button className=' w-full px-6 py-2 mx-2 text-sm font-medium text-white transition-colors duration-300 transform bg-green-400 rounded-lg hover:bg-blue-400 focus:bg-blue-400 focus:outline-none'>
         Home</button></Link>
   </div>
@@ -84,8 +80,8 @@ const Login = () => {
     </a>
   </div>
   <p className="mt-8 text-xs font-light text-center text-gray-400">
-    {" "}
-    Don't have an account?{" "}
+    
+   
     <a
       href="#"
       className="font-medium text-gray-700 dark:text-gray-200 hover:underline"

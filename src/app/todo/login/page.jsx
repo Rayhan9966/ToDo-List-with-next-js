@@ -5,11 +5,11 @@ const page = () => {
     <div>
       <div className="w-full max-w-sm p-6 m-auto mx-auto bg-white rounded-lg shadow-md dark:bg-gray-800 mt-20">
   <div className="flex justify-center mx-auto">
-    <img
+    {/* <img
       className="w-auto h-7 sm:h-8"
       src="https://merakiui.com/images/logo.svg"
       alt=""
-    />
+    /> */}
   </div>
   <form className="mt-6">
     <div>
@@ -80,8 +80,8 @@ const page = () => {
     </a>
   </div>
   <p className="mt-8 text-xs font-light text-center text-gray-400">
-    {" "}
-    Don't have an account?{" "}
+    {/* {" "}
+    Don't have an account?{" "} */}
     <a
       href="#"
       className="font-medium text-gray-700 dark:text-gray-200 hover:underline"
